@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalam714\Contact\Models;
+namespace Kalam\Contact\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

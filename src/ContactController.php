@@ -1,11 +1,11 @@
 <?php
-namespace Kalam714\Contact;
+namespace Kalam\Contact;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
-use Kalam714\Contact\Mail\ContactMailable;
-use Kalam714\Contact\Models\Contact;
+use Kalam\Contact\Mail\ContactMailable;
+use Kalam\Contact\Models\Contact;
 
 class ContactController extends Controller
 {
