@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalam\Contact\Mail;
+namespace Kalam714\Contact\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

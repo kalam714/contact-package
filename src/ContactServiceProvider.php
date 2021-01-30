@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalam\Contact;
+namespace Kalam714\Contact;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,7 @@ class ContactServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Kalam\Contact\ContactController');
+        $this->app->make('Kalam714\Contact\ContactController');
         $this->loadViewsFrom(__DIR__.'/views', 'contact');
     }
 
