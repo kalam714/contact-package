@@ -18,7 +18,15 @@
         "psr-4": {
             "Kalam\\Contact\\": "packages/kalam/contact/src"
         }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Kalam\\Contact\\ContactServiceProvider"
+        ]
+       
     }
+}
     
 
 }
