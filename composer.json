@@ -1,0 +1,24 @@
+{
+    "name": "kalam/contact",
+    "description": "This will send email in admin  and store information in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kalam ahmed",
+            "email": "kalamahmed714@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "Kalam\\Contact\\": "packages/kalam/contact/src"
+        }
+    }
+    
+
+}
