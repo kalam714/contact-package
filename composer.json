@@ -1,5 +1,5 @@
 {
-    "name": "kalam/contact",
+    "name": "kalam714/contact",
     "description": "This will send email in admin  and store information in database",
     "type": "library",
     "license": "MIT",
